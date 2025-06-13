@@ -1,0 +1,10 @@
+module com.example.u2_ti_05_form {
+    requires javafx.controls;
+    requires javafx.fxml;
+
+    requires org.controlsfx.controls;
+    requires org.kordamp.bootstrapfx.core;
+
+    opens com.example.u2_ti_05_form to javafx.fxml;
+    exports com.example.u2_ti_05_form;
+}
